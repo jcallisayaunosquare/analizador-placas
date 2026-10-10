@@ -1,0 +1,26 @@
+# The upstream project this analysis is about.
+#
+# CarVision is somebody else's work and it carries no licence file, which means the
+# author keeps all rights to it by default — it is not ours to redistribute. It is
+# cloned here for reading, and referenced by URL from the analysis instead:
+#
+#   https://github.com/salehabbaas/CarVision
+CarVision/
+
+# dependencies and build output
+node_modules/
+dist/
+.pnpm-store/
+*.tsbuildinfo
+
+# secrets and local config — never commit
+.env
+.env.local
+*.pem
+secrets/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
